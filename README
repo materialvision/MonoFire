@@ -5,7 +5,7 @@ MonoFire is a simple patch made for MaxForLive M4L, that enables a Monome 64 to 
 The basic idea is to have a simple clip-player that can play upto 7 clips simultaniously per Live Scene. It is made to be as simple and quick to set up as possible (at the airport before the gig).
 
 Quickstart: 
-Put this patch "Monofire.amxd" into your pluginfolder in ~Documents, add an instance of the patch to the Master strip (or any other). Connect your Monome64 and name the path "/live" in MonomeSerial app.
+Put this patch "Monofire.amxd" into your pluginfolder in ~Documents/livelibrary,, add an instance of the patch to the Master strip (or any other). Connect your Monome64 and name the path "/live" in MonomeSerial app.
 
 Now make 7 audio tracks in Live, and add as many clips as you want in each row/scene, upto 7 rows/scenes, so you have maximum a 7x7 grid of clips.
 
