@@ -1,0 +1,20 @@
+MonoFire
+
+MonoFire is a simple patch made for MaxForLive M4L, that enables a Monome 64 to fire clips stored in the Ableton Live project. In includes volumecontrol and showing the Vue-meter on the Monome.
+
+The basic idea is to have a simple clip-player that can play upto 7 clips simultaniously per Live Scene. It is made to be as simple and quick to set up as possible (at the airport before the gig).
+
+Quickstart: 
+Put this patch "Monofire.amxd" into your pluginfolder in ~Documents, add an instance of the patch to the Master strip (or any other). Connect your Monome64 and name the path "/live" in MonomeSerial app.
+
+Now make 7 audio tracks in Live, and add as many clips as you want in each row/scene, upto 7 rows/scenes, so you have maximum a 7x7 grid of clips.
+
+Enter speeds in bpm for each row (horizontally) in the MonoFire plugin-window. No need to do this unless you need to have individual speeds per scene/row.
+
+Now on the Monome the rightmost column (depending on orientation) choose which row/scene to work with. Hold the selected button for a few seconds to change the speed of the project to the speed set for that row.
+
+On the bottom row (except the rightmost button) you fire away clips. Start/stop. The column above this controls volume by holding the button of the height of volum desired. When not volumecontrol the column shows the signal vue dB.
+
+Thanks to James Drake for the great Monomebutton and -slider and -pages patches used in this project.
+
+contact: espensommer@gmail.com
